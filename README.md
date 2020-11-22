@@ -8,6 +8,7 @@ In this project, we are taking an existing database that represents the ordering
 **Use Case for Rating System**
 ![Use case (2)](https://user-images.githubusercontent.com/46977818/99899190-57288080-2c75-11eb-9157-a4c3161c65be.jpg)\
 **Business Rules** \
+-Drivers must have drivers license and car.\
 -Customers can rate both the driver and restaurant once they have received their food.\
 -Customer cannot rate drivers or restaurant they have not used\
 -Customer can view the average restaurant and driver ratings when placing an order\
@@ -21,9 +22,17 @@ In this project, we are taking an existing database that represents the ordering
 -Each order must have a total price and a person they are delivering to\
 -Restaurants need to have a name\
 -Students must have a major\
+-Restaurants must be approved by admin before they can be added to the database\
+
 **EERD (full database)** 
-**MySQL Queries** 
-**Stored Procedure**  
-**Web/App Implementation (Optional) or Description of Future Work** 
-**MySQL dump**  
+![EERD Diagram](https://user-images.githubusercontent.com/29802691/99917504-bc648c00-2cde-11eb-99d6-e77224df4052.png)
+
+**Data Dictionary**\
+![Data Dictionary Campus Eats](https://user-images.githubusercontent.com/29802691/99918484-326bf180-2ce5-11eb-98e4-f26e2e1b681a.png)
+
+**MySQL Queries**\
+**Stored Procedure**\
+**Web/App Implementation (Optional) or Description of Future Work**\
+**MySQL dump**\
 **PPT Video (link)**
+
