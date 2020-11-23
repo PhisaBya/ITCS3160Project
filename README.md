@@ -4,16 +4,17 @@ GROUP Members: Phisa Bya, Samuel Carson, William Faulkner, Jake Garcia, Milan Th
 **Table of Contents**
 
 **Introduction (Team, Project Description)**
-In this project, we are taking an existing database that represents the ordering system of a campus delivery app and adding additional functionality in the form of a rating system for the application . This database already includes information on the people on campus that could use the app or be drivers for the delivery service such as students and faculty . We can use the existing information to verify whether a person can be a driver. We can also provide information on the restaurants that use the app (including name,  location...etc). The final piece of the application which we will have to implement is a rating system for both the drivers and the restaurants so that users can provide feedback about their experience with individual drivers and restaurants, we can also then take this rating information and display it to other users to better inform them about quality of service from each driver and restaurant within the delivery service\
+In this project, we are taking an existing database that represents the ordering system of a campus delivery app and adding additional functionality in the form of a rating system for the application. This database already includes information on the people on campus that could use the app or be drivers for the delivery service such as students and faculty. We can use the existing information to verify whether a person can be a driver (is a student and has a license/car). We can also provide information on the restaurants that use the app (including name,  location...etc). The final piece of the application which we will have to implement is a rating system for both the drivers and the restaurants so that users can provide feedback about their experience with individual drivers and restaurants, we can also then take this rating information and display it to other users to better inform them about the quality of service from each driver and restaurant within the delivery service\
 **Use Case for Rating System**
 ![Use case (2)](https://user-images.githubusercontent.com/46977818/99899190-57288080-2c75-11eb-9157-a4c3161c65be.jpg)\
 **Business Rules** \
 -Drivers must have drivers license and car.\
+-Only students can be drivers.\
 -Customers can rate both the driver and restaurant once they have received their food.\
 -Customer cannot rate drivers or restaurant they have not used\
 -Customer can view the average restaurant and driver ratings when placing an order\
 -The rating system will be a numerical rating system from 1-5 (poor service to great service)\
--Drivers and restaurants are able to see their current rating, but are to submit a rating about themselves.\
+-Drivers and restaurants are able to see their current rating, but are not able to submit a rating about themselves.\
 -Drivers are able to become customers when not delivering and as such are able to rate restaurants and other drivers, they however are still prohibited from rating themselves even when acting as a customer.\
 -Customers may only give one rating per rate-able object per order, i.e. the customer can only rate the driver and restaurant associated with their current order. \
 -Customers may also leave an additional rating on the same driver and restaurant, if they place a new order from the same driver and restaurant combo.\
@@ -22,7 +23,7 @@ In this project, we are taking an existing database that represents the ordering
 -Each order must have a total price and a person they are delivering to\
 -Restaurants need to have a name\
 -Students must have a major\
--Restaurants must be approved by admin before they can be added to the database\
+-Restaurants must be approved by admin before they can be added to the database
 
 **EERD (full database)** 
 ![EERD Diagram](https://user-images.githubusercontent.com/29802691/99917504-bc648c00-2cde-11eb-99d6-e77224df4052.png)
