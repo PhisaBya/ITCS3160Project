@@ -29,11 +29,27 @@ In this project, we are taking an existing database that represents the ordering
 ![EERD Diagram](https://user-images.githubusercontent.com/29802691/99917504-bc648c00-2cde-11eb-99d6-e77224df4052.png)
 
 **Data Dictionary**\
-![Data Dictionary Campus Eats](https://user-images.githubusercontent.com/29802691/99918484-326bf180-2ce5-11eb-98e4-f26e2e1b681a.png)
+![Data Dictionary 12-6](https://user-images.githubusercontent.com/29802691/101307788-46037600-3816-11eb-8a5a-41a78f63a9c9.png)
+
+Narrative: There are many important relationships in this database - here are a few: The first relationship is the relationship between person and staff, faculty and student. There is a one-to-many relationship beteween person and staff, person and faculty and person and student. A staff can only be one person yet a person can refer to many staff. This same relatinship is seen with student and driver, where a student ID can reference many drivers while a driver can only reference one student. In regards to vehicle and driver, it makes sense for a vehicle to reference many drivers but a driver can only reference on vehicle. There a few items that still need to be implemented - when an order is placed, the attributes of person_id and location_id must initially be filled out, along with total_price and delivery_charge once the user places their order. Before an order is placed, the user is able to see the average ratings of each driver and each restaurnt, influencing their decisions. Once a user places their order and they receive it, they have the option to rate the driver and restaurant based on delivery service and food quality respecitively. This rating system (through the use of stored procedures) is more closely examined down below. 
 
 **MySQL Queries**
 
+![restaurant](https://user-images.githubusercontent.com/29802691/101308508-08075180-3818-11eb-8796-cffbc142d6ad.PNG)
 
+![staff](https://user-images.githubusercontent.com/29802691/101308509-08075180-3818-11eb-91a3-b946bbdeed14.PNG)
+
+![student](https://user-images.githubusercontent.com/29802691/101308510-08075180-3818-11eb-9435-bd2af59a00a4.PNG)
+
+![vehicle](https://user-images.githubusercontent.com/29802691/101308513-08075180-3818-11eb-8c4c-b8b33e6a2ffd.PNG)
+
+![faculty](https://user-images.githubusercontent.com/29802691/101308514-089fe800-3818-11eb-9a6e-71d0948eda21.PNG)
+
+![location](https://user-images.githubusercontent.com/29802691/101308517-089fe800-3818-11eb-9760-9cad69b0ee55.PNG)
+
+![order](https://user-images.githubusercontent.com/29802691/101308518-089fe800-3818-11eb-8449-3e64586cbe91.PNG)
+
+![person](https://user-images.githubusercontent.com/29802691/101308519-089fe800-3818-11eb-9d4a-71c28ab877c0.PNG)
 
 **Stored Procedure**\
 -----There are four stored procedures-----
