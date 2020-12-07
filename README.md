@@ -56,31 +56,31 @@ Narrative: There are many important relationships in this database - here are a 
 **Stored Procedure**\
 -----There are four stored procedures-----
 
-Calculate average of restaurant ratings:
+Calculate average of restaurant ratings: \
 
-![calcrestaurant code](https://user-images.githubusercontent.com/29802691/101305242-38e38880-3810-11eb-9478-1b2be25f7950.PNG) \
+![calcrestaurant code](https://user-images.githubusercontent.com/29802691/101305242-38e38880-3810-11eb-9478-1b2be25f7950.PNG) 
 
--Calling the procedure:
-![calc restaurant average](https://user-images.githubusercontent.com/29802691/101304958-7eec1c80-380f-11eb-881a-8fc82693ace1.PNG) \
+-Calling the procedure: \
+![calc restaurant average](https://user-images.githubusercontent.com/29802691/101304958-7eec1c80-380f-11eb-881a-8fc82693ace1.PNG) 
 
-Update restaurant_rating value in table:
-![updaterestaurant code](https://user-images.githubusercontent.com/29802691/101305266-4862d180-3810-11eb-8338-83b71e011c0d.PNG) \
+Update restaurant_rating value in table: \
+![updaterestaurant code](https://user-images.githubusercontent.com/29802691/101305266-4862d180-3810-11eb-8338-83b71e011c0d.PNG) 
 
-Calling the procedure:
-![update restaurant average](https://user-images.githubusercontent.com/29802691/101305005-9a572780-380f-11eb-8957-52453809548f.PNG) \
+Calling the procedure: \
+![update restaurant average](https://user-images.githubusercontent.com/29802691/101305005-9a572780-380f-11eb-8957-52453809548f.PNG) 
 
-Calculate average of driver ratings:
-![image](https://user-images.githubusercontent.com/29802691/101305999-d7241e00-3811-11eb-9ddc-bb82f50fc3f8.png) \
+Calculate average of driver ratings: \
+![image](https://user-images.githubusercontent.com/29802691/101305999-d7241e00-3811-11eb-9ddc-bb82f50fc3f8.png) 
 
--Calling the procedure
-![calc driver average](https://user-images.githubusercontent.com/29802691/101305659-29b10a80-3811-11eb-8124-e6e91832c950.PNG) \
+-Calling the procedure \
+![calc driver average](https://user-images.githubusercontent.com/29802691/101305659-29b10a80-3811-11eb-8124-e6e91832c950.PNG) 
 
-Update driver_rating in table:
-![updatedriveraveragecode](https://user-images.githubusercontent.com/29802691/101306058-f458ec80-3811-11eb-8b74-728b279f8073.PNG) \
+Update driver_rating in table: \
+![updatedriveraveragecode](https://user-images.githubusercontent.com/29802691/101306058-f458ec80-3811-11eb-8b74-728b279f8073.PNG) 
 
 
-Calling the procedure
-![calling updatedriveraverage procedure](https://user-images.githubusercontent.com/29802691/101306282-7a753300-3812-11eb-848b-3ea8e22db341.PNG) \
+Calling the procedure \
+![calling updatedriveraverage procedure](https://user-images.githubusercontent.com/29802691/101306282-7a753300-3812-11eb-848b-3ea8e22db341.PNG) 
 
 
 
