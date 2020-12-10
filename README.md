@@ -26,7 +26,7 @@ In this project, we are taking an existing database that represents the ordering
 -Restaurants must be approved by admin before they can be added to the database
 
 **EERD (full database)** 
-![EERD Diagram Revised](https://user-images.githubusercontent.com/29802691/101763161-68aebc80-3aac-11eb-8c5b-f0bddb33ad4f.png)
+![EERD Diagram 2](https://user-images.githubusercontent.com/29802691/101777428-7a9a5a80-3ac0-11eb-9232-df6dda671c67.png)
 
 Narrative: There are many important relationships in this database - here are a few: The first relationship is the relationship between person and staff, faculty and student. There is a one-to-many relationship beteween person and staff, person and faculty and person and student. A staff can only be one person yet a person can refer to many staff. This same relatinship is seen with student and driver, where a student ID can reference many drivers while a driver can only reference one student. In regards to vehicle and driver, it makes sense for a vehicle to reference many drivers but a driver can only reference on vehicle. There a few items that still need to be implemented - when an order is placed, the attributes of person_id and location_id must initially be filled out, along with total_price and delivery_charge once the user places their order. Before an order is placed, the user is able to see the average ratings of each driver and each restaurant, influencing their decisions. Once a user places their order and they receive it, they have the option to rate the driver and restaurant based on delivery service and food quality respecitively. This rating system (through the use of stored procedures) is more closely examined down below. 
 
