@@ -93,7 +93,7 @@ Query to show the orders with ratings higher than the rating obtained on a certa
 **Explain Tables**\
 
 Explain table for query to show the orders between 2 dates:
-![EXPLAIN orders between 2 dates](https://user-images.githubusercontent.com/29802691/102303249-ca49ad80-3f28-11eb-965b-3582ff8ed639.PNG)
+![explain the orders between 2 dates](https://user-images.githubusercontent.com/29802691/102303895-324cc380-3f2a-11eb-97db-c01042b6a13e.PNG)
 
 Explain table for query to show the orders with ratings higher than the rating obtained on a certain day:
 ![EXPLAIN orders with ratings higher than date](https://user-images.githubusercontent.com/29802691/102303250-ca49ad80-3f28-11eb-9fa4-54f46405d3e7.PNG)
