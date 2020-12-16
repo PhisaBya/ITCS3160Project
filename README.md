@@ -102,6 +102,13 @@ Explain table for query to show the orders with ratings higher than the rating o
 **Views**\
 ![VIEWS](https://user-images.githubusercontent.com/29802691/102303246-ca49ad80-3f28-11eb-9686-e64f5589ca8c.PNG)
 
+**Querying the Views**\
+![VIEW QUERY customerview](https://user-images.githubusercontent.com/29802691/102303243-c9b11700-3f28-11eb-8dee-42ec1a7e3ff6.PNG)
+
+![VIEW QUERY topcustomerview](https://user-images.githubusercontent.com/29802691/102303244-c9b11700-3f28-11eb-822c-9b88ef538958.PNG)
+
+![VIEW QUERY total_drivers_earnings](https://user-images.githubusercontent.com/29802691/102303245-ca49ad80-3f28-11eb-8b23-41fb173d6b8d.PNG)
+
 **MySQL dump**\
 
 https://github.com/PhisaBya/ITCS3160Project/blob/main/Dump20201206.sql
