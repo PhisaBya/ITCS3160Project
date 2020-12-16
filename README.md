@@ -111,7 +111,7 @@ Explain table for query to show the orders with ratings higher than the rating o
 
 **MySQL dump**\
 
-https://github.com/PhisaBya/ITCS3160Project/blob/main/Dump20201206.sql
+https://github.com/PhisaBya/ITCS3160Project/blob/main/Dump20201215.sql
 
 This is the MySQL dump, however, procedures were not able to be exported for some reason. The full procedures can be found in the 12-6-2020 SQL File above.
 
