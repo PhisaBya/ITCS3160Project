@@ -115,6 +115,10 @@ https://github.com/PhisaBya/ITCS3160Project/blob/main/Dump20201206.sql
 
 This is the MySQL dump, however, procedures were not able to be exported for some reason. The full procedures can be found in the 12-6-2020 SQL File above.
 
-**Web/App Implementation (Optional) or Description of Future Work**\
-**PPT Video (link)**
+**Description of Future Work**\
+- Further optimization
+- More features
+- Front end interface
 
+**PPT Video (link)**
+https://www.youtube.com/watch?v=t3JGsW7Lc9E
