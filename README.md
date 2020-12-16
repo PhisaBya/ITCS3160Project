@@ -26,7 +26,7 @@ In this project, we are taking an existing database that represents the ordering
 -Restaurants must be approved by admin before they can be added to the database
 
 **EERD (full database)** 
-![EERD Diagram 2](https://user-images.githubusercontent.com/29802691/101777428-7a9a5a80-3ac0-11eb-9232-df6dda671c67.png)
+![EERD Diagram 3](https://user-images.githubusercontent.com/29802691/102300788-8ef8b000-3f23-11eb-8105-693dcf1df50e.png)
 
 Narrative: There are many important relationships in this database - here are a few: The first relationship is the relationship between person and staff, faculty and student. There is a one-to-many relationship beteween person and staff, person and faculty and person and student. A staff can only be one person yet a person can refer to many staff. This same relatinship is seen with student and driver, where a student ID can reference many drivers while a driver can only reference one student. In regards to vehicle and driver, it makes sense for a vehicle to reference many drivers but a driver can only reference on vehicle. There a few items that still need to be implemented - when an order is placed, the attributes of person_id and location_id must initially be filled out, along with total_price and delivery_charge once the user places their order. Before an order is placed, the user is able to see the average ratings of each driver and each restaurant, influencing their decisions. Once a user places their order and they receive it, they have the option to rate the driver and restaurant based on delivery service and food quality respecitively. This rating system (through the use of stored procedures) is more closely examined down below. 
 
@@ -79,12 +79,28 @@ Update driver_rating in table: \
 ![updatedriveraveragecode](https://user-images.githubusercontent.com/29802691/101306058-f458ec80-3811-11eb-8b74-728b279f8073.PNG) 
 
 
-Calling the procedure \
+Calling the procedure: \
 ![calling updatedriveraverage procedure](https://user-images.githubusercontent.com/29802691/101306282-7a753300-3812-11eb-848b-3ea8e22db341.PNG) 
 
+**Complex Queries**\
+
+Query to show the orders between 2 dates: \
+![QUERY orders between 2 dates](https://user-images.githubusercontent.com/29802691/102303241-c9188080-3f28-11eb-919b-321b864f088c.PNG)
+
+Query to show the orders with ratings higher than the rating obtained on a certain day: \
+![QUERY Orders with ratings higher](https://user-images.githubusercontent.com/29802691/102303242-c9b11700-3f28-11eb-9990-ce13f074ba48.PNG)
+
+**Explain Tables**\
+
+Explain table for query to show the orders between 2 dates:
+![EXPLAIN orders between 2 dates](https://user-images.githubusercontent.com/29802691/102303249-ca49ad80-3f28-11eb-965b-3582ff8ed639.PNG)
+
+Explain table for query to show the orders with ratings higher than the rating obtained on a certain day:
+![EXPLAIN orders with ratings higher than date](https://user-images.githubusercontent.com/29802691/102303250-ca49ad80-3f28-11eb-9fa4-54f46405d3e7.PNG)
 
 
-
+**Views**\
+![VIEWS](https://user-images.githubusercontent.com/29802691/102303246-ca49ad80-3f28-11eb-9686-e64f5589ca8c.PNG)
 
 **MySQL dump**\
 
