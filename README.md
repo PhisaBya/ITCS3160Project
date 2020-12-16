@@ -82,7 +82,7 @@ Update driver_rating in table: \
 Calling the procedure: \
 ![calling updatedriveraverage procedure](https://user-images.githubusercontent.com/29802691/101306282-7a753300-3812-11eb-848b-3ea8e22db341.PNG) 
 
-**Complex Queries**\
+**Complex Queries**
 
 Query to show the orders between 2 dates: \
 ![QUERY orders between 2 dates](https://user-images.githubusercontent.com/29802691/102303241-c9188080-3f28-11eb-919b-321b864f088c.PNG)
@@ -90,7 +90,7 @@ Query to show the orders between 2 dates: \
 Query to show the orders with ratings higher than the rating obtained on a certain day: \
 ![QUERY Orders with ratings higher](https://user-images.githubusercontent.com/29802691/102303242-c9b11700-3f28-11eb-9990-ce13f074ba48.PNG)
 
-**Explain Tables**\
+**Explain Tables**
 
 Explain table for query to show the orders between 2 dates:
 ![explain the orders between 2 dates](https://user-images.githubusercontent.com/29802691/102303895-324cc380-3f2a-11eb-97db-c01042b6a13e.PNG)
@@ -109,7 +109,7 @@ Explain table for query to show the orders with ratings higher than the rating o
 
 ![VIEW QUERY total_drivers_earnings](https://user-images.githubusercontent.com/29802691/102303245-ca49ad80-3f28-11eb-8b23-41fb173d6b8d.PNG)
 
-**MySQL dump**\
+**MySQL dump**
 
 https://github.com/PhisaBya/ITCS3160Project/blob/main/Dump20201215.sql
 
